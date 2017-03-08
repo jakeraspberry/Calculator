@@ -70,7 +70,7 @@ def doDivide(inpList):
                 #print(' = ',''.join(itemsToString(inpList))) #shows work
         return inpList
     except ZeroDivisionError:
-        print('Cannot divide by zero, your answer is undefined.')
+        print("Dont Break me or I'll break you.")
         inpList=[]
 
 def doAdd(inpList):
@@ -233,6 +233,9 @@ while cont==True:
     expression=input("Input your expression here: ")
     if expression=='exit':
         cont=False
+        print("You suck")
+    elif (solve(expression) = 666:
+          print("DEVIL")
     else:
         print(' = ',solve(expression))
 
